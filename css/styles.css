@@ -462,7 +462,6 @@ body {
 }
 .footer-form {
   display: flex;
-  gap: 24px;
 }
 .footer-email {
   margin-left: 80px;
@@ -480,6 +479,7 @@ body {
   padding-left: 16px;
   width: 264px;
   height: 40px;
+  border: 1px solid #ffffff;
 }
 .input-footer::placeholder {
   color: var(--WHITE, #fff);
