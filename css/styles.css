@@ -462,6 +462,7 @@ body {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-email {
   margin-left: 80px;
@@ -481,14 +482,15 @@ body {
   height: 40px;
   border: 1px solid #ffffff;
   margin-right: 24px;
+  color: #ffffff;
 }
 .input-footer::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 .footer-button {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   min-width: 165px;
   height: 40px;
   border-radius: 4px;
@@ -581,6 +583,9 @@ body {
 
 .modal-form-container {
   margin-bottom: 8px;
+}
+.modal-form-container-textarea {
+  margin-bottom: 16px;
 }
 .modal-description {
   color: var(--NAVY-BLUE, #2e2f42);
